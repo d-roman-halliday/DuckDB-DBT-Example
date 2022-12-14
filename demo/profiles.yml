@@ -1,0 +1,9 @@
+local_duckdb_project:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: '../local_duckdb_project_db.duckdb'
+      #optional fields
+      schema: duckdb_demo
+
